@@ -12,6 +12,19 @@
     background:crimson;
     font-family:'Ubuntu', 'sans-serif';
 }
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 2.95em;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display:inline-block;
+}
 .navbar .menu li a{
     color: #fff;
 }
