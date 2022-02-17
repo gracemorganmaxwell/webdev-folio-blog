@@ -14,9 +14,14 @@
 .navbar{
     position:fixed;
     width: 100%;
-    padding: 0.9375em 0em;
+    padding: 1.875em 0em;
     background:rgb(165, 4, 114);
     font-family:'Ubuntu', 'sans-serif';
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 0.9375em 0em;
+    background:rgb(19, 82, 39);
 }
 .navbar .max-width {
     display: flex;
@@ -28,6 +33,14 @@
     font-size: 2.95em;
     font-weight: 600;
 }
+.navbar .logo a span{
+    color:rgb(0, 0, 0);
+
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+    transition: color 0.3s ease;
+}
 .navbar .menu li{
     list-style: none;
     display:inline-block;
@@ -35,11 +48,24 @@
 .navbar .menu li a{
     color: #fff;
     padding: 0.75em;
-    font-size: 1.125em;
+    font-size: 1.12em;
     font-weight: 500;
-    margin-left: 1.5625em;
+    margin-left: 1.56em;
+    transition: color 0.3s ease;
 }
-
+.navbar .menu li a:hover{
+    color:rgb(0, 0, 0);
+}
+.navbar.sticky menu li a:hover{
+    color: #fff;
+   
+}
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 1.4em;
+    cursor: pointer;
+}
 /* home section styling */
 .home{
     display:flex;
@@ -62,8 +88,9 @@
 }
 .home .home-content .text-3{
     font-size: 2em;
-    margin: 0.3125em 0;
+    margin: 0.31em 0;
 }
-.home .home-content .text-3{
-    
+.home .home-content .text-3 span{
+    color: rgb(165, 4, 114);
+    font-weight: 500;
 }
