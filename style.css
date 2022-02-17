@@ -5,3 +5,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* navbar styling */
+.navbar{
+    position:fixed;
+    width: 100%;
+    background:crimson;
+    font-family:'Ubuntu', 'sans-serif';
+}
+.navbar .menu li a{
+    color: #fff;
+}
