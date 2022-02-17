@@ -39,3 +39,10 @@
     font-weight: 500;
     margin-left: 1.5625em;
 }
+
+/* home section styling */
+.home{
+    display:flex;
+    background: url("images/flower-2336287.jpg") no-repeat center;
+    height: 100vh;
+}
