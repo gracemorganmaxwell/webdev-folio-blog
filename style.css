@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0em;
+    padding: 0em;
     box-sizing: border-box;
     text-decoration: none;
 }
 .max-width{
     max-width: 81.25em;
-    padding: 0 5rem;
+    padding: 0em 5rem;
     margin: auto;
 }
 /* navbar styling */
 .navbar{
     position:fixed;
     width: 100%;
-    padding: 0.9375em 0;
+    padding: 0.9375em 0em;
     background:rgb(165, 4, 114);
     font-family:'Ubuntu', 'sans-serif';
 }
@@ -45,4 +45,25 @@
     display:flex;
     background: url("images/flower-2336287.jpg") no-repeat center;
     height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 31.25em;
+    font-family:'Ubuntu', 'sans-serif';
+}
+.home .max-width{
+    margin: auto 0em auto 2.5em; 
+}
+.home .home-content .text-1{
+    font-size: 1.48em;
+    font-weight: 600;
+    margin-left: -0.11em;
+}
+.home .home-content .text-2{
+    font-size: 3.5em;
+}
+.home .home-content .text-3{
+    font-size: 2em;
+    margin: 0.3125em 0;
+}
+.home .home-content .text-3{
+    
 }
